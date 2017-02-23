@@ -1,0 +1,13 @@
+{
+	"name": "jquery-reqscheck",
+	"version": "1.1.0",
+	"description": "Check if the user's browser can meet a set of technical requirements, and load polyfills if available and needed.",
+	"homepage": "https://github.com/PikadudeNo1/jquery-reqscheck",
+	"keywords": [
+		"jquery-plugin",
+		"ecosystem:jquery"
+	],
+	"author": "Pikadude No. 1",
+	"repository": "github:PikadudeNo1/jquery-reqscheck",
+	"license": "MIT"
+}
