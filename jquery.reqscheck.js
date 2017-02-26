@@ -1,4 +1,4 @@
-/* jQuery reqsCheck Plugin v1.1 by Pikadude No. 1
+/* jQuery reqsCheck Plugin v1.1.1 by Pikadude No. 1
    License (MIT): https://github.com/PikadudeNo1/jQuery-reqsCheck#license */
 (function($) {
 "use strict";
@@ -45,6 +45,6 @@ $.reqsCheck = function (reqs) {
 };
 $.reqsCheckPolyfills = {};
 $.reqsCheckPolyfillPromises = {};
-$.reqsCheckAjaxOptions = {type: "script", cache: true};
+$.reqsCheckAjaxOptions = {dataType: "script", cache: true};
 
 })(jQuery);

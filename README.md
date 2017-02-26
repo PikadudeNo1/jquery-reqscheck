@@ -1,6 +1,6 @@
 <h1>jQuery reqsCheck Plugin</h1>
 
-[Get the plugin](https://github.com/PikadudeNo1/jQuery-reqsCheck/raw/v1.1/jquery.reqscheck.min.js)
+[Get the plugin](https://github.com/PikadudeNo1/jQuery-reqsCheck/raw/v1.1.1/jquery.reqscheck.min.js)
 
 <h2>What it does</h2>
 
@@ -73,7 +73,7 @@ The <code>.getPolyfills</code> method of results objects assumes that any polyfi
 
 <h4 id="jQuery.reqsCheckAjaxOptions"><code>$.reqsCheckAjaxOptions</code> - Object</h4>
 
-These options are passed to <a href="https://api.jquery.com/jQuery.ajax/"><code>$.ajax</code></a> whenever reqsCheck attempts to load a polyfill. It defaults to <code>{type: "script", cache: true}</code>.
+These options are passed to <a href="https://api.jquery.com/jQuery.ajax/"><code>$.ajax</code></a> whenever reqsCheck attempts to load a polyfill. It defaults to <code>{dataType: "script", cache: true}</code>.
 
 <h3 id="resultsObject">Properties of the Results Object</h3>
 
