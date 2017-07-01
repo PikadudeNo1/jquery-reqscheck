@@ -1,6 +1,6 @@
 <h1>jQuery reqsCheck Plugin</h1>
 
-[Get the plugin](https://github.com/PikadudeNo1/jQuery-reqsCheck/raw/v1.1.1/jquery.reqscheck.min.js)
+[Get the plugin](https://github.com/PikadudeNo1/jQuery-reqsCheck/raw/v1.1.4/jquery.reqscheck.min.js)
 
 <h2>What it does</h2>
 

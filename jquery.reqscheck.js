@@ -1,4 +1,4 @@
-/* jQuery reqsCheck Plugin v1.1.1 by Pikadude No. 1
+/* jQuery reqsCheck Plugin v1.1.4 by Pikadude No. 1
    License (MIT): https://github.com/PikadudeNo1/jQuery-reqsCheck#license */
 (function($) {
 "use strict";
@@ -32,7 +32,7 @@ $.reqsCheck = function (reqs) {
 		}
 		var needed = [];
 		for (var polyfill in this.polyfillsNeeded) {
-			if (polyfillPromises[polyfill] != undefined) {
+			if (polyfillPromises[polyfill] == undefined) {
 				polyfillPromises[polyfill] = $.ajax(polyfill, $.reqsCheckAjaxOptions).fail(function() {
 					delete polyfillPromises[polyfill];
 				});

@@ -1,3 +1,5 @@
+### 1.1.4 (Jun 30, 2017)
+- Completely fixed loading polyfills
 ### 1.1.1 (Feb 26, 2017) (1.1.3 on npm)
 - Fixed incorrect default $.reqsCheckAjaxOptions preventing polyfills from loading
 ### 1.1 (Feb 23, 2017)
